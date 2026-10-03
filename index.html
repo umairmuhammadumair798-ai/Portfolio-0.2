@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Umair | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Muhammad Umair, a BSCS student and aspiring software engineer based in Karachi, Pakistan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero" id="top">
+        <nav class="topbar">
+          <div class="brand" id="brand">MU</div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#languages">Languages</a>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">BSCS Student</p>
+            <h1 id="name">Muhammad Umair</h1>
+            <p class="headline" id="headline"></p>
+
+            <div class="cta-row">
+              <a class="button primary" id="email-link" href="mailto:umairmuhammadumair798@gmail.com">Email Me</a>
+              <a class="button secondary" href="#about">Learn More</a>
+            </div>
+
+            <ul class="meta-list" id="basic-meta"></ul>
+          </div>
+
+          <aside class="profile-card">
+            <h2>Quick Info</h2>
+            <div id="profile-summary"></div>
+            <div id="social-links" class="social-links"></div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="panel">
+          <div class="section-heading">
+            <p class="label">About</p>
+            <h2>Software Engineering Student</h2>
+          </div>
+          <div id="about-intro" class="about-intro"></div>
+          <div class="strengths-wrap">
+            <h3>Core Strength</h3>
+            <ul id="strengths-list" class="chip-list"></ul>
+          </div>
+        </section>
+
+        <section id="skills" class="panel">
+          <div class="section-heading">
+            <p class="label">Skills</p>
+            <h2>Technologies I Work With</h2>
+          </div>
+          <div id="skills-grid" class="skills-grid"></div>
+        </section>
+
+        <section id="education" class="panel">
+          <div class="section-heading">
+            <p class="label">Education</p>
+            <h2>Academic Background</h2>
+          </div>
+          <div id="education-list" class="timeline"></div>
+        </section>
+
+        <section id="languages" class="panel">
+          <div class="section-heading">
+            <p class="label">Languages</p>
+            <h2>Communication</h2>
+          </div>
+          <div id="languages-list" class="languages-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
